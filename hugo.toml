@@ -86,6 +86,7 @@ customRemoteJS = []
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 # [params.googleTagManager]
 # id = "gid"
+id = "G-RCVFGMTPH8" # Google Tag Manager ID
 
 # If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
 # [params.yandexMetrika]
