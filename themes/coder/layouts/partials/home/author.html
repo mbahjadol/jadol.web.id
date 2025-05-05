@@ -1,0 +1,7 @@
+<h1>{{ .Site.Params.author }}</h1>
+<span style="font-size: 0.8em">{{ .Site.Params.nicknameAlt }} /  {{ .Site.Params.realname }}</span>
+{{ if reflect.IsSlice .Site.Params.info }}
+<h2>{{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}</h2>
+{{ else }}
+<h2>{{ .Site.Params.info | markdownify }} </h2>
+{{ end }}
